@@ -7,7 +7,7 @@ jobs:
     steps:
     - name: Kek
       env:
-        GITHUB_TOKEN: ${{ secrets.KEK }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         SOME: SoMe
       run: |
         copy=${GITHUB_TOKEN}

@@ -4,7 +4,6 @@ on: [pull_request, push]
 jobs:
   label:
     runs-on: ubuntu-latest
-
     steps:
     - name: Kek
       env:
